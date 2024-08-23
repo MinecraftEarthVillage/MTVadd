@@ -1,0 +1,8 @@
+name: MTV-add
+version: '${project.version}'
+main: top.earthvillage.mtv.MTVadd
+api-version: '1.20'
+depend: [MTVehicles]
+commands:
+  mtvaddreload:
+    description: 重载MTVadd插件配置
