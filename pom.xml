@@ -17,6 +17,7 @@
     </properties>
 
     <build>
+
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -47,6 +48,10 @@
                 <filtering>true</filtering>
             </resource>
         </resources>
+        <sourceDirectory>src/main/java</sourceDirectory>
+
+
+
     </build>
 
     <repositories>
